@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: 3targets.cfg
+  weight_file:
+    name: 3targets.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - target
+      - half_target
+      - lean_target
