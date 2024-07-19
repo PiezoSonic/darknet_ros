@@ -9,5 +9,5 @@ yolo_model:
   detection_classes:
     names:
       - target
-      - halh_target
+      - half_target
       - lean_target
