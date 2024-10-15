@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: 3targets_revise.cfg
+  weight_file:
+    name: 3targets_fixval_0.23.weights
+  threshold:
+    value: 0.6
+  detection_classes:
+    names:
+      - target
+      - half_target
+      - lean_target
